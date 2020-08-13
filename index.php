@@ -1,4 +1,7 @@
 <?php
+myMaze(31);
+
+
 function myMaze(int $size){
     $maze = "";
 	$index = 0;
@@ -25,7 +28,4 @@ function myMaze(int $size){
 		$i++;
 	}
 }
-
-
-myMaze(31);
 ?>
